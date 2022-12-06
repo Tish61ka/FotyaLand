@@ -54,9 +54,19 @@ header > img:first-child{
     top: 0;
     z-index: 1;
 }
+header nav{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 110px;
+  z-index: 1001;
+  left: 0;
+  top: 0;
+  transition: 400ms;
+}
 header nav ul{
-    position: fixed;
-    top: 13px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -355,3 +365,162 @@ header nav ul a li button{
 }
 
 /* Close section show */
+
+
+/* Open section whywe */
+
+.inside-div{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 50px;
+}
+.inside-div h1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 35px;
+}
+.inside-div p{
+  width: 727px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.inside-div > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.inside-div > div div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.inside-div > div div img{
+  width: 225px;
+  height: 225px;
+  margin-bottom: 30px;
+}
+.inside-div > div div p{
+  width: 295px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+/* Close section whywe */
+
+/* Open section reviews */
+
+.inside-div-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inside-div-1 div:first-child{
+  position: relative;
+}
+.inside-div-1 div:first-child h1{
+  position: relative;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 24px;
+  z-index: 2;
+}
+.inside-div-1 div:first-child div{
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  width: 182px;
+  height: 34px;
+  background: #FD9113;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 27px;
+  z-index: 1;
+}
+.section-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url("/img/reviews-back.png");
+  width: 100%;
+  height: 649px;
+  margin-top: 150px;
+}
+.section-div div{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 414px;
+  height: 589px;
+  background: #FFFFFF;
+  border: 2px solid #FF932C;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 27px;
+  top: -80px;
+}
+.section-div div p:first-child{
+  width: 282px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-div div img{
+  width: 160px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+.section-div div h2{
+  width: 165px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.section-div div p:last-child{
+  width: 219px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #595959;
+  text-align: center;
+}
+.inside-div-1 button{
+  position: relative;
+  width: 348px;
+  height: 58px;
+  background: linear-gradient(180deg, #FEC705 0%, #FF8E19 100%);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 13px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  top: -100px;
+}
+
+/* Close section reviews */
